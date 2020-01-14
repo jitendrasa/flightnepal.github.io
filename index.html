@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex wrap</title>
+    <style>
+        body{ font-family: Arial, Helvetica, sans-serif; }
+        h1{ padding: 0 0 0 40px; }
+
+        .container{
+            background: #eee;
+            margin: 50px;
+            padding: 0;
+            border: 3px solid #000;
+            height: 400px;
+
+
+            display: flex;
+            /* align-items: stretch; */
+            /* align-items: flex-start; */
+            align-items: flex-end;
+            /* align-items: center; */
+            /* align-items: baseline; */
+
+            /* justify-content: center; */
+            justify-content: space-between;
+            flex-direction: column;
+            /* flex-direction: row; */
+        }
+
+        .item1{ background: orangered; }
+        .item2{ background: yellowgreen; height: 100px; font-size: 35px;}
+        .item3{ background: mediumpurple; }
+        .item4{ background: hotpink;font-size: 11px; }
+        .item5{ background: royalblue; }
+        .item6{ background: orchid; }
+        .item7{ background: goldenrod; }
+        .item8{ background: #7DCEA0; }
+        .items{ color: #fff;
+            /* font-size: 20px; */
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;  
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Jitendra Sah : CSS Flexbox Align-Items</h1>
+
+    <div class="container">
+        <div class="items item1">One</div>
+        <div class="items item2">Two</div>
+        <div class="items item3">Three</div>
+        <div class="items item4">Four</div>
+        <!-- <div class="items item5">Five</div>
+        <div class="items item6">Six</div>
+        <div class="items item7">Seven</div>
+        <div class="items item8">Eight</div> -->
+    </div>
+
+</body>
+</html>
